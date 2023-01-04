@@ -15,7 +15,13 @@ function buscarAmigo(amigos, nombre) {
 
   // Tu código aca:
   
+  for( item of amigos){
+    if(item.nombre == nombre) {
+      return item;
+    }
+  }
 }
+
 
 // No modifiques nada debajo de esta linea //
 
